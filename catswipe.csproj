@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>dotnet-catswipe-2102BA70-14EC-4D43-A6D4-A808FD4435AC</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0"/>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0"/>
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.0.0"/>
+  </ItemGroup>
+</Project>
